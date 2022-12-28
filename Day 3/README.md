@@ -1,4 +1,4 @@
-# 30_Days_Of_Solidity Variables/Data types - Value types
+# Day 3 = Variables/Data types - Value types
 
 
 There are two types of data types in Solidity:
