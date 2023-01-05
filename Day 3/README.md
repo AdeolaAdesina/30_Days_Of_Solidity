@@ -1,6 +1,53 @@
 # Day 3 = Variables/Data types - Value types
 
 
+## Smart Contract for Day 3
+
+```
+// SPDX-License-Identifier: MIT
+
+//specify the version of solidity
+pragma solidity ^0.8.1;
+
+/// a simple set and get function for mood defined: 
+
+//define the contract
+contract ValueTypes{
+    
+    //create a variable called mood
+    string mood;
+    uint integ;
+    bool condition;
+    
+    //create a function that writes a mood to the smart contract
+    function setMood(string memory _mood) public{
+        mood = _mood;
+    }
+    
+    //create a function the reads the mood from the smart contract
+    function getMood() public view returns(string memory){
+        return mood;
+    }
+
+    function setInteger(uint _integ) public {
+        integ = _integ;
+    }
+
+    function getInteg() public view returns(uint) {
+        return integ;
+    }
+
+    function setBool(bool _condition) public {
+        condition = _condition;
+    }
+
+    function getBool() public view returns(bool) {
+        return condition;
+    }
+}
+```
+
+
 There are two types of data types in Solidity:
 
 - Value types e.g Signed integers, Unsigned integers, Boolean, Addresses, Enums, Bytes because they provide a value.
