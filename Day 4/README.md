@@ -1,4 +1,4 @@
-# 30_Days_Of_Solidity
+# 30_Days_Of_Solidity - Functions
 
 We have different ways of classifying functions in Solidity
 
